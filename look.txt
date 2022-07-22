@@ -1,3 +1,5 @@
 test
+<<<<<<< HEAD
 
 hello my name is soo bin
+
