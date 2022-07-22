@@ -18,7 +18,7 @@ async def root():
 async def train():
     train()
     return 'train & save success'
-    
+
 # store model
 @app.post("/uploadfile")
 async def upload_file(file: UploadFile = File(...)):
@@ -32,7 +32,7 @@ async def get_prediction():
     pred = predict()
     return pred
 
-# uploadfile 
+# uploadfile
 # http --form http://localhost:8000/uploadfile file@./filename
 
 # prediction
